@@ -1,6 +1,8 @@
 Sliding-Tiles-Puzzle
 ====================
 
+* _Start an online_ __Sliding Tiles Puzzle__ _session on_ http://omerkel.github.io/Sliding-Tiles-Puzzle/html5/src/
+
 Sliding Tiles Puzzle / 15 Puzzle
 
 History and Background
