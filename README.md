@@ -1,4 +1,4 @@
-Sliding-Tiles-Puzzle
+<img alt="Fifteen Puzzle / Sliding Tiles Puzzle" width="64" src="html5/src/img/icons/tile_15-light-64.png" /> Sliding-Tiles-Puzzle
 ====================
 
 * _Start an online_ __Sliding Tiles Puzzle__ _session on_ http://omerkel.github.io/Sliding-Tiles-Puzzle/html5/src/
