@@ -39,7 +39,7 @@ History and Background
   <li>Fifteen Puzzle, Sliding Puzzle, Sliding Tiles Puzzle (us, uk, en),</li>
   <li>Schiebepuzzle (de),</li>
   <li>Jeu de Taquin (fr),</li>
-  <li>Juego del quince (es, mind there is a famous card game with same name in Spain),</li>
+  <li>Juego del quince (es, mind the card game Escoba that may be called Juego del quince, too),</li>
   <li>Gioco del quindici (it),</li>
   <li>Patn&aacute;ctka (cz),</li>
   <li>15-spillet (dk),</li>
