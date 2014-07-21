@@ -31,9 +31,10 @@ History and Background
 <h3>The Name of the Game</h3>
 <p>A patent nowadays shall protect a specific technical solution. The rules
   itself cannot be covered by such a patent in modern law. The rules text might
-  only be covered by copyrights of the exact rules text. Such that possibly
-  the only type of infringement could be in misusing any registered trademark.
-  Which is unlikely for any traditional name of the puzzle.</p>
+  only be covered by copyrights regulating the authorship of the exact
+  rules text. Such that possibly the only type of infringement could be in
+  misusing any registered trademark. Which is unlikely for any traditional
+  name of the puzzle.</p>
 <p>Typical names depending on language and region are</p>
 <ul>
   <li>Fifteen Puzzle, Sliding Puzzle, Sliding Tiles Puzzle (us, uk, en),</li>
