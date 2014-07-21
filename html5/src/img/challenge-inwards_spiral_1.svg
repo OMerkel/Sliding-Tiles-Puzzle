@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="650"
+   height="650"
+   viewBox="0 0 5 5"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="board.svg">
+  <title
+     id="title3113">Sliding Tiles Puzzle</title>
+  <defs
+     id="defs4">
+    <circle
+       transform="scale(0.94,1.0)"
+       id="tiger"
+       cx="0"
+       cy="0"
+       r="0.3"
+       style="fill:#ffff00;fill-opacity:0.4;stroke:#aa4400;stroke-width:0.04;stroke-opacity:1" />
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Sliding Tiles Puzzle</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#616624;stroke:#ffff00;stroke-opacity:1;stroke-width:0.02;"
+       id="rect2996"
+       width="5"
+       height="5"
+       x="0"
+       y="0" />
+    <image
+       y="0"
+       x="0"
+       id="image2993"
+       xlink:href="board.png"
+       height="5"
+       width="5" />
+    <g
+       transform="translate(-0.5,-0.5)"
+       id="g3081">
+      <image
+         y="1" x="1"
+         id="tile-00" xlink:href="tile_01.png"
+         height="1" width="1" />
+      <image
+         y="1" x="2"
+         id="tile-01" xlink:href="tile_02.png"
+         height="1" width="1" />
+      <image
+         y="1" x="3"
+         id="tile-02" xlink:href="tile_03.png"
+         height="1" width="1" />
+      <image
+         y="1" x="4"
+         id="tile-03" xlink:href="tile_04.png"
+         height="1" width="1" />
+      <image
+         y="2" x="4"
+         id="tile-04" xlink:href="tile_05.png"
+         height="1" width="1" />
+      <image
+         y="3" x="4"
+         id="tile-05" xlink:href="tile_06.png"
+         height="1" width="1" />
+      <image
+         y="4" x="4"
+         id="tile-06" xlink:href="tile_07.png"
+         height="1" width="1" />
+      <image
+         y="4" x="3"
+         id="tile-07" xlink:href="tile_08.png"
+         height="1" width="1" />
+      <image
+         y="4" x="2"
+         id="tile-08" xlink:href="tile_09.png"
+         height="1" width="1" />
+      <image
+         y="4" x="1"
+         id="tile-09" xlink:href="tile_10.png"
+         height="1" width="1" />
+      <image
+         y="3" x="1"
+         id="tile-10" xlink:href="tile_11.png"
+         height="1" width="1" />
+      <image
+         y="2" x="1"
+         id="tile-11" xlink:href="tile_12.png"
+         height="1" width="1" />
+      <image
+         y="2" x="2"
+         id="tile-12" xlink:href="tile_13.png"
+         height="1" width="1" />
+      <image
+         y="2" x="3"
+         id="tile-13" xlink:href="tile_14.png"
+         height="1" width="1" />
+      <image
+         y="3" x="3"
+         id="tile-14" xlink:href="tile_15.png"
+         height="1" width="1" />
+    </g>
+  </g>
+</svg>
