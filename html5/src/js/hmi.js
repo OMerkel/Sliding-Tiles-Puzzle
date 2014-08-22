@@ -12,6 +12,11 @@ function Hmi() {}
 Hmi.SVGNAME = 'board';
 
 Hmi.prototype.init = function() {
+  $( document ).on( 'pagecontainershow',function(event, ui){
+    if( 'game-page' == ui.toPage[0].id ) {
+      hmi.reinit();
+    }
+  });
   this.element = this.getElements();
   this.newGame();
   this.enableControl();
@@ -21,8 +26,19 @@ Hmi.prototype.init = function() {
   $window.resize();
 }
 
+Hmi.prototype.reinit = function() {
+  this.element = this.getElements();
+  this.setupGame();
+  this.enableControl();
+}
+
+
 Hmi.prototype.newGame = function() {
   this.puzzle = new Sliding();
+  this.setupGame();
+}
+
+Hmi.prototype.setupGame = function() {
   var state = this.puzzle.getState();
   for( var n=1; n<=Sliding.TILEAMOUNT; ++n ){
     this.element[n].setAttribute('x', state[n].x + 1);
