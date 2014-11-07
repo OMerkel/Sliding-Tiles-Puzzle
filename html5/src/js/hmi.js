@@ -127,6 +127,33 @@ Hmi.prototype.resize = function() {
   var svgEmbed = document.embeds[Hmi.SVGNAME];
   svgEmbed.height = (smallerValue * 0.9);
   svgEmbed.width = (smallerValue * 0.9);
+
+  var minSize = 32;
+  var size = 0.06 * panelWidth < minSize ? minSize : 0.06 * panelWidth;
+  $('#customMenu').css({
+    'width': size+'px', 'height': size+'px',
+    'background-size': size+'px ' + size+'px',
+  });
+  size = 0.05 * panelWidth < minSize ? minSize : 0.05 * panelWidth;
+  $('#customBackRules').css({
+    'width': size+'px', 'height': size+'px',
+    'background-size': size+'px ' + size+'px',
+  });
+  $('#customBackChallenges').css({
+    'width': size+'px', 'height': size+'px',
+    'background-size': size+'px ' + size+'px',
+  });
+  $('#customBackAbout').css({
+    'width': size+'px', 'height': size+'px',
+    'background-size': size+'px ' + size+'px',
+  });
+};
+
+function backButton( e ) {
+  $.mobile.changePage( "#game-page",
+    { transition: "slide",
+      reverse: true,
+      changeHash: false });
 };
 
 function svgWait() {

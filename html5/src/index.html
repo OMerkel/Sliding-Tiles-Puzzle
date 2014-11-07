@@ -64,7 +64,8 @@ If not otherwise stated all game graphics (independent of its format) are licens
   class='mybackground'>
   <div data-role='header' data-position='fixed'>
     <center>Sliding Tiles Puzzle</center>
-    <a href='#left-panel' data-icon='bars' data-iconpos='notext'>Navigation</a>
+    <a href='#left-panel' id='customMenu' class='customMenu'
+      data-icon='custom' data-iconpos='notext'>Menu</a>
   </div><!-- /header -->
   <div role='main' class='mycontent ui-content'>
     <div id='game-region'>
@@ -87,12 +88,12 @@ If not otherwise stated all game graphics (independent of its format) are licens
       data-icon='false' data-global-nav='demos' class='jqm-list'>
       <li data-icon='back' data-rel='close'><a href='#'>Back</a></li>
       <li data-role='list-divider'>&nbsp;</li>
-      <li data-icon='star' ><a id='new' href='#'>New</a></li>
-      <li data-icon='action' ><a href='#rules-page' data-rel='page'
+      <li data-icon='star'><a id='new'>New</a></li>
+      <li data-icon='action'><a href='#rules-page' data-rel='page'
         data-transition='pop'>Rules&#8230;</a></li>
       <li data-icon='grid'><a href='#positions-page' data-rel='page'
         data-transition='slideup'>Challenges&#8230;</a></li>
-      <li data-icon='info' ><a href='#about-page' data-rel='page'
+      <li data-icon='info'><a href='#about-page' data-rel='page'
         data-transition='pop'>About&#8230;</a></li>
     </ul>
   </div><!-- /panel -->
@@ -100,11 +101,12 @@ If not otherwise stated all game graphics (independent of its format) are licens
 
 <div data-role='page' data-theme='b' id='rules-page'>
   <div data-role='header'>
-    <a href='#' data-rel='back'
-      class='ui-btn ui-icon-delete ui-btn-icon-right ui-btn-icon-notext ui-corner-all'>Back</a>
+    <a href='#' data-rel='back' id='customBackRules'
+      class='customBack ui-btn ui-icon-custom ui-btn-icon-right ui-btn-icon-notext ui-corner-all'>Back</a>
     <h4>Sliding Tiles Puzzle - Rules</h4>
   </div><!-- /header -->
   <div role='main' class='ui-content'>
+    <br />
     <p>The <b>Sliding Tiles Puzzle</b> consists of a game board with 16 positions in total.
       One position is kept free while the other 15 positions are covered by numbered tiles
       labeled from #1 to #15. Tiles horizontally or vertically adjacent towards the spare
@@ -166,11 +168,12 @@ If not otherwise stated all game graphics (independent of its format) are licens
 
 <div data-role='page' data-theme='b' id='positions-page'>
   <div data-role='header'>
-    <a href='#' data-rel='back'
-      class='ui-btn ui-icon-delete ui-btn-icon-right ui-btn-icon-notext ui-corner-all'>Back</a>
+    <a href='#' data-rel='back' id='customBackChallenges'
+      class='customBack ui-btn ui-icon-custom ui-btn-icon-left ui-btn-icon-notext ui-corner-all'>Back</a>
     <h4>Sliding Tiles Puzzle - Challenges</h4>
   </div><!-- /header -->
   <div role='main' class='ui-content'>
+    <br />
     <p>You can freely chose among the listed challenges here! A challenge marked
       having a <em>spoiler</em> indicates that this is directly showing a final position although
       a similar challenge exists describing the intended achievement in a more abstract form.
@@ -383,11 +386,12 @@ If not otherwise stated all game graphics (independent of its format) are licens
 
 <div data-role='page' data-theme='b' id='about-page'>
   <div data-role='header'>
-    <a href='#' data-rel='back'
-      class='ui-btn ui-icon-delete ui-btn-icon-right ui-btn-icon-notext ui-corner-all'>Back</a>
+    <a href='#' data-rel='back' id='customBackAbout'
+      class='customBack ui-btn ui-icon-custom ui-btn-icon-right ui-btn-icon-notext ui-corner-all'>Back</a>
     <h4>About Sliding Tiles Puzzle</h4>
   </div><!-- /header -->
   <div role='main' class='ui-content'>
+    <br />
     <h3>Legal</h3>
     <figure class='author' style='float: right;'>
       <img src='img/oliver_avalanche_field.jpg' />
