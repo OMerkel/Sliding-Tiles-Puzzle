@@ -1,7 +1,11 @@
 <img alt="Fifteen Puzzle / Sliding Tiles Puzzle" width="64" src="html5/src/img/icons/tile_15-light-64.png" /> Sliding-Tiles-Puzzle
 ====================
 
-* _Start an online_ __Sliding Tiles Puzzle__ _session on_ http://omerkel.github.io/Sliding-Tiles-Puzzle/html5/src/
+* _Start an online_ __Sliding Tiles Puzzle__ _session on_ http://omerkel.github.io/Sliding-Tiles-Puzzle/html5/src
+* <em>Also published in</em> <a href="https://marketplace.firefox.com/app/slidingtiles"><img align="middle" width="150px" src="https://marketplace.cdn.mozilla.net/media/fireplace/img/pretty/marketplace_logo.png" /></a>
+* <em>runs in various browsers on</em>
+    * <em>desktop systems like BSDs, Linux, Win, MacOS and</em>
+    * <em>mobile platforms like Android, FirefoxOS, iOS.</em>
 
 Sliding Tiles Puzzle / 15 Puzzle
 
