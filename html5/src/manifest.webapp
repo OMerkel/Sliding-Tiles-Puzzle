@@ -4,15 +4,15 @@
   "description": "Sliding Tiles Puzzle",
   "launch_path": "/index.html",
   "icons": {
-    "16": "/img/icons/tile_15-light-16.png",
-    "32": "/img/icons/tile_15-light-32.png",
-    "48": "/img/icons/tile_15-light-48.png",
-    "60": "/img/icons/tile_15-light-60.png",
-    "64": "/img/icons/tile_15-light-64.png",
-    "90": "/img/icons/tile_15-light-90.png",
-    "120": "/img/icons/tile_15-light-120.png",
-    "128": "/img/icons/tile_15-light-128.png",
-    "256": "/img/icons/tile_15-light-256.png"
+    "16": "/img/icons/tile16.png",
+    "32": "/img/icons/tile32.png",
+    "48": "/img/icons/tile48.png",
+    "60": "/img/icons/tile60.png",
+    "64": "/img/icons/tile64.png",
+    "90": "/img/icons/tile90.png",
+    "120": "/img/icons/tile120.png",
+    "128": "/img/icons/tile128.png",
+    "256": "/img/icons/tile256.png"
   },
   "developer": {
     "name": "Oliver Merkel",

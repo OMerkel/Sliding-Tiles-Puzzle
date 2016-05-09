@@ -1,4 +1,4 @@
-<img alt="Fifteen Puzzle / Sliding Tiles Puzzle" width="64" src="html5/src/img/icons/tile_15-light-64.png" /> Sliding-Tiles-Puzzle
+<img alt="Fifteen Puzzle / Sliding Tiles Puzzle" width="64" src="html5/src/img/icons/tile64.png" /> Sliding Tiles Puzzle
 ====================
 
 * _Start an online_ __Sliding Tiles Puzzle__ _session on_ http://omerkel.github.io/Sliding-Tiles-Puzzle/html5/src
@@ -7,7 +7,30 @@
     * <em>desktop systems like BSDs, Linux, Win, MacOS and</em>
     * <em>mobile platforms like Android, FirefoxOS, iOS.</em>
 
-Sliding Tiles Puzzle / 15 Puzzle
+Abstract
+--------
+
+Sliding Tiles Puzzles / 15 Puzzles are popular mechanical puzzles
+consisting of a set of tiles to be arranged in certain target
+constellations. One of the board positions on the most common
+rectangular board is empty so that adjacent tiles can slide into
+the empty position. Thus that the empty position will be at the
+origin of the sliding tile after the move. Historically the most
+popular size for the puzzle is 4 times 4 positions. But there are
+other sizes available, too. Each tile has a property like a number
+written on it. Some puzzles prefer parts of a photograph or drawing
+on it so that one single position exists showing the whole image
+correctly as a target position after shuffling the puzzle. This
+implementation prefers numbers on the tiles in the popular 4 times
+4 shape. Numbers are more flexible to arrange them in different
+logical orders so that multiple challenges could be played with
+the same Sliding Tiles Puzzle. Attractive complex and harder
+Sliding Tiles challenges include forming a Magic Square of numbers
+with the number tiles or placing the tiles in a constellation
+where numbers indicate a possible Chess Knight's Move to follow
+while each Sliding Tile Puzzle position is used in the formed
+path. The application includes a row of challenges accessible
+from the application menu.
 
 History and Background
 ----------------------

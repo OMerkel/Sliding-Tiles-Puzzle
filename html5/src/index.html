@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html manifest="offline.appcache">
-<head profile="http://dublincore.org/documents/dcq-html/">
-  <link rel="icon" href="img/icons/favicon.ico" type="image/x-icon" />
-  <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
-  <link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta charset="UTF-8" />
-  <meta name="AUTHOR" content="Oliver Merkel" />
-  <meta name="COPYRIGHT" content="Oliver Merkel" />
-  <meta name="DC.creator" content="Oliver Merkel" />
-  <meta name="DC.contributor" content="Oliver Merkel" />
-  <meta name="DC.rights" content="
+<html>
+<head profile='http://dublincore.org/documents/dcq-html/'>
+  <link rel='icon' href='img/icons/favicon.ico' type='image/x-icon' />
+  <link rel='schema.DC' href='http://purl.org/dc/elements/1.1/' />
+  <link rel='schema.DCTERMS' href='http://purl.org/dc/terms/' />
+  <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+  <meta charset='UTF-8' />
+  <meta name='AUTHOR' content='Oliver Merkel' />
+  <meta name='COPYRIGHT' content='Oliver Merkel' />
+  <meta name='DC.creator' content='Oliver Merkel' />
+  <meta name='DC.contributor' content='Oliver Merkel' />
+  <meta name='DC.rights' content="
 See file named LICENSE being part of the repository.
 
-Copyright (c) 2014
+Copyright (c) 2016
 @author Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de.
 All rights reserved.
 
@@ -23,7 +23,7 @@ All source code also including code parts written in HMTL, Javascript, CSS is un
 
 The MIT License (MIT)
 
-Copyright (c) 2014 Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de
+Copyright (c) 2016 Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the &quot;Software&quot;), to deal in
@@ -47,15 +47,15 @@ If not otherwise stated all game graphics (independent of its format) are licens
     Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 " />
   <title>Sliding Tiles Puzzle</title>
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-  <link rel="apple-touch-icon" href="img/icons/tile_15-light-128.png" />
+  <meta name='apple-mobile-web-app-capable' content='yes' />
+  <meta name='apple-mobile-web-app-status-bar-style' content='black' />
+  <link rel='apple-touch-icon' href='img/icons/tile128.png' />
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'
     name='viewport' />
-  <link rel='stylesheet' type='text/css' href='thirdparty/jquery.mobile-1.4.3/jquery.mobile-1.4.3.css' />
+  <link rel='stylesheet' type='text/css' href='thirdparty/jquery.mobile-1.4.5/jquery.mobile-1.4.5.css' />
   <link rel='stylesheet' type='text/css' href='css/index.css' />
-  <script src='thirdparty/jquery-1.11.1.js' type='text/javascript'></script>
-  <script src='thirdparty/jquery.mobile-1.4.3/jquery.mobile-1.4.3.js' type='text/javascript'></script>
+  <script src='thirdparty/jquery-2.1.4.js' type='text/javascript'></script>
+  <script src='thirdparty/jquery.mobile-1.4.5/jquery.mobile-1.4.5.js' type='text/javascript'></script>
   <script src='js/sliding.js' type='text/javascript'></script>
   <script src='js/hmi.js' type='text/javascript' defer></script>
 </head>
@@ -74,11 +74,11 @@ If not otherwise stated all game graphics (independent of its format) are licens
         <p>Please consider enabling Javascript if disabled through settings.</p>
       </noscript>
       <center>
-        <embed name="board"
-          type="image/svg+xml"
-          src="img/board.svg"
-          style="border:2px solid black;"
-          width="400" height="400" />
+        <embed name='board'
+          type='image/svg+xml'
+          src='img/board.svg'
+          style='border:2px solid black;'
+          width='400' height='400' />
       </center>
     </div>
   </div><!-- /content -->
@@ -115,9 +115,9 @@ If not otherwise stated all game graphics (independent of its format) are licens
       as described in the <em>Challenges</em> page accessible via the menu.</p>
     <p>The player can freely choose among the described challenges. Intentionally this
       free play mode does not check if the selected task is solved.</p>
-    <div data-role="collapsible-set" data-theme="c" data-content-theme="d"
-      data-iconpos="right" data-collapsed-icon="arrow-l" data-expanded-icon="arrow-d">
-    <div data-role="collapsible">
+    <div data-role='collapsible-set' data-theme='c' data-content-theme='d'
+      data-iconpos='right' data-collapsed-icon='arrow-l' data-expanded-icon='arrow-d'>
+    <div data-role='collapsible'>
       <h3>History</h3>
       <p>The 15 tiles version of the Sliding Tiles Puzzle is often credited to
         Noyes Palmer Chapman and Sam Loyd.</p>
@@ -139,7 +139,7 @@ If not otherwise stated all game graphics (independent of its format) are licens
         two neighbouring tiles exchanged. This is referred to be the 14 and 15 tiles
         exchanged version of the puzzle (<em>14-15 Puzzle</em>).</p>
     </div><!-- collapsible -->
-    <div data-role="collapsible">
+    <div data-role='collapsible'>
       <h3>The Name of the Game</h3>
       <p>A patent nowadays shall protect a specific technical solution. The rules
         itself cannot be covered by such a patent in modern law. The rules text might
@@ -179,26 +179,26 @@ If not otherwise stated all game graphics (independent of its format) are licens
       a similar challenge exists describing the intended achievement in a more abstract form.
       The abstract versions are obviously harder to solve. Feel free to find more
       patterns than the ones listed in here!</p>
-    <div data-role="collapsible-set" data-theme="c" data-content-theme="d"
-      data-iconpos="right" data-collapsed-icon="arrow-l" data-expanded-icon="arrow-d">
-    <div data-role="collapsible">
+    <div data-role='collapsible-set' data-theme='c' data-content-theme='d'
+      data-iconpos='right' data-collapsed-icon='arrow-l' data-expanded-icon='arrow-d'>
+    <div data-role='collapsible'>
       <h3>Left to right rows</h3>
       <figure class='diagram' style='float: right;'>
-        <embed name="challenge-left_to_right_rows"
-          type="image/svg+xml"
-          src="img/board.svg" />
+        <embed name='challenge-left_to_right_rows'
+          type='image/svg+xml'
+          src='img/board.svg' />
         <figcaption>Left to right rows.</figcaption>
       </figure>
       <p>This is the classical tile arrangement or standard challenge to go for.</p>
       <br clear='all' />
     </div><!-- collapsible -->
 
-    <div data-role="collapsible">
+    <div data-role='collapsible'>
       <h3>Inwards spiral or worm 1</h3>
       <figure class='diagram' style='float: right;'>
-        <embed name="challenge-inwards_spiral_1"
-          type="image/svg+xml"
-          src="img/challenge-inwards_spiral_1.svg" />
+        <embed name='challenge-inwards_spiral_1'
+          type='image/svg+xml'
+          src='img/challenge-inwards_spiral_1.svg' />
         <figcaption>Spiral directed inwards.</figcaption>
       </figure>
       <p>Starting with the first tile in the upper left corner the consecutive
@@ -207,12 +207,12 @@ If not otherwise stated all game graphics (independent of its format) are licens
       <br clear='all' />
     </div><!-- collapsible -->
 
-    <div data-role="collapsible">
+    <div data-role='collapsible'>
       <h3>Outwards spiral or worm 1</h3>
       <figure class='diagram' style='float: right;'>
-        <embed name="challenge-outwards_spiral_1"
-          type="image/svg+xml"
-          src="img/challenge-outwards_spiral_1.svg" />
+        <embed name='challenge-outwards_spiral_1'
+          type='image/svg+xml'
+          src='img/challenge-outwards_spiral_1.svg' />
         <figcaption>Spiral directed outwards.</figcaption>
       </figure>
       <p>Starting on the inner tile positions the tiles follow in clockwise
@@ -221,7 +221,7 @@ If not otherwise stated all game graphics (independent of its format) are licens
       <br clear='all' />
     </div><!-- collapsible -->
 
-    <div data-role="collapsible">
+    <div data-role='collapsible'>
       <h3>Magic square</h3>
       <p>No visual hint! Build a magic square! Find a configuration with
         equal sums of tile values in</p>
@@ -234,12 +234,12 @@ If not otherwise stated all game graphics (independent of its format) are licens
         column, and diagonal? Could you explain why?</p>
     </div><!-- collapsible -->
 
-    <div data-role="collapsible">
+    <div data-role='collapsible'>
       <h3>Magic square (spoiler!)</h3>
       <figure class='diagram' style='float: right;'>
-        <embed name="challenge-magic_square_1"
-          type="image/svg+xml"
-          src="img/challenge-magic_square_1.svg" />
+        <embed name='challenge-magic_square_1'
+          type='image/svg+xml'
+          src='img/challenge-magic_square_1.svg' />
         <figcaption>A magic square with empty position representing value zero.</figcaption>
       </figure>
       <p>This is a magic square configuration with
@@ -253,31 +253,31 @@ If not otherwise stated all game graphics (independent of its format) are licens
       <br clear='all' />
     </div><!-- collapsible -->
 
-    <div data-role="collapsible">
+    <div data-role='collapsible'>
       <h3>San Francisco, Lombard Street</h3>
       <figure class='diagram' style='float: right;'>
-        <embed name="challenge-winding_worm_1"
-          type="image/svg+xml"
-          src="img/challenge-winding_worm_1.svg" />
+        <embed name='challenge-winding_worm_1'
+          type='image/svg+xml'
+          src='img/challenge-winding_worm_1.svg' />
         <figcaption>Direction changes on each row here.</figcaption>
       </figure>
       <p>It is a long winding road.</p>
       <br clear='all' />
     </div><!-- collapsible -->
 
-    <div data-role="collapsible">
+    <div data-role='collapsible'>
       <h3>Meander 1</h3>
       <figure class='diagram' style='float: right;'>
-        <embed name="challenge-curves_1"
-          type="image/svg+xml"
-          src="img/challenge-curves_1.svg" />
+        <embed name='challenge-curves_1'
+          type='image/svg+xml'
+          src='img/challenge-curves_1.svg' />
         <figcaption>Narrow winding curves.</figcaption>
       </figure>
       <p>The narrow winding curves formation looks like a meandering river.</p>
       <br clear='all' />
     </div><!-- collapsible -->
 
-    <div data-role="collapsible">
+    <div data-role='collapsible'>
       <h3>Knight's move</h3>
       <p>Begin on upper left corner and consecutively place the
         next number in exact distance of a Knight's move
@@ -285,12 +285,12 @@ If not otherwise stated all game graphics (independent of its format) are licens
       <br clear='all' />
     </div><!-- collapsible -->
 
-    <div data-role="collapsible">
+    <div data-role='collapsible'>
       <h3>Knight's move (spoiler!)</h3>
       <figure class='diagram' style='float: right;'>
-        <embed name="challenge-knights_move_1"
-          type="image/svg+xml"
-          src="img/challenge-knights_move_1.svg" />
+        <embed name='challenge-knights_move_1'
+          type='image/svg+xml'
+          src='img/challenge-knights_move_1.svg' />
         <figcaption>Tiles' distance is similar to a Knight's
           move like in a Chess game.</figcaption>
       </figure>
@@ -300,12 +300,12 @@ If not otherwise stated all game graphics (independent of its format) are licens
       <br clear='all' />
     </div><!-- collapsible -->
 
-    <div data-role="collapsible">
+    <div data-role='collapsible'>
       <h3>Inwards spiral or worm 2</h3>
       <figure class='diagram' style='float: right;'>
-        <embed name="challenge-inwards_spiral_2"
-          type="image/svg+xml"
-          src="img/challenge-inwards_spiral_2.svg" />
+        <embed name='challenge-inwards_spiral_2'
+          type='image/svg+xml'
+          src='img/challenge-inwards_spiral_2.svg' />
         <figcaption>Another spiral directed inwards.</figcaption>
       </figure>
       <p>The formation shows a spiral being directed inwards.
@@ -314,24 +314,24 @@ If not otherwise stated all game graphics (independent of its format) are licens
       <br clear='all' />
     </div><!-- collapsible -->
 
-    <div data-role="collapsible">
+    <div data-role='collapsible'>
       <h3>Top to bottom columns</h3>
       <figure class='diagram' style='float: right;'>
-        <embed name="challenge-top_to_bottom_columns"
-          type="image/svg+xml"
-          src="img/challenge-top_to_bottom_columns.svg" />
+        <embed name='challenge-top_to_bottom_columns'
+          type='image/svg+xml'
+          src='img/challenge-top_to_bottom_columns.svg' />
         <figcaption>Top to bottom columns.</figcaption>
       </figure>
       <p>The pattern follows vertical columns instead of horizontal rows.</p>
       <br clear='all' />
     </div><!-- collapsible -->
 
-    <div data-role="collapsible">
+    <div data-role='collapsible'>
       <h3>Odd then even 1</h3>
       <figure class='diagram' style='float: right;'>
-        <embed name="challenge-odd_then_even_1"
-          type="image/svg+xml"
-          src="img/challenge-odd_then_even_1.svg" />
+        <embed name='challenge-odd_then_even_1'
+          type='image/svg+xml'
+          src='img/challenge-odd_then_even_1.svg' />
         <figcaption>Odds on top and evens on bottom half.</figcaption>
       </figure>
       <p>Odd numbers are placed in the upper half. Even numbers are located in lower section.
@@ -339,24 +339,24 @@ If not otherwise stated all game graphics (independent of its format) are licens
       <br clear='all' />
     </div><!-- collapsible -->
 
-    <div data-role="collapsible">
+    <div data-role='collapsible'>
       <h3>Zig zag 1</h3>
       <figure class='diagram' style='float: right;'>
-        <embed name="challenge-zig_zag_1"
-          type="image/svg+xml"
-          src="img/challenge-zig_zag_1.svg" />
+        <embed name='challenge-zig_zag_1'
+          type='image/svg+xml'
+          src='img/challenge-zig_zag_1.svg' />
         <figcaption>Tiles follow a zig zag pattern.</figcaption>
       </figure>
       <p>The zig zag pattern reminds on saw teeth.</p>
       <br clear='all' />
     </div><!-- collapsible -->
 
-    <div data-role="collapsible">
+    <div data-role='collapsible'>
       <h3>JPG zig zag</h3>
       <figure class='diagram' style='float: right;'>
-        <embed name="challenge-jpg_zig_zag"
-          type="image/svg+xml"
-          src="img/challenge-jpg_zig_zag.svg" />
+        <embed name='challenge-jpg_zig_zag'
+          type='image/svg+xml'
+          src='img/challenge-jpg_zig_zag.svg' />
         <figcaption>Diagonally shaped worm or zig zag pattern.</figcaption>
       </figure>
       <p>The empty position is in upper left corner. The numbered tiles
@@ -366,12 +366,12 @@ If not otherwise stated all game graphics (independent of its format) are licens
       <br clear='all' />
     </div><!-- collapsible -->
 
-    <div data-role="collapsible">
+    <div data-role='collapsible'>
       <h3>Odd then even 2</h3>
       <figure class='diagram' style='float: right;'>
-        <embed name="challenge-odd_then_even_2"
-          type="image/svg+xml"
-          src="img/challenge-odd_then_even_2.svg" />
+        <embed name='challenge-odd_then_even_2'
+          type='image/svg+xml'
+          src='img/challenge-odd_then_even_2.svg' />
         <figcaption>Odds on left and evens on right half.</figcaption>
       </figure>
       <p>Odd numbers are placed in the left half. Even numbers are located in right section.
@@ -400,13 +400,13 @@ If not otherwise stated all game graphics (independent of its format) are licens
         href='http://creativecommons.org/licenses/by-nc-nd/4.0/'
         target='_blank'>cc-by-nc-nd 4.0</a>.</figcaption>
     </figure>
-    <p>Copyright (c) 2014<br />
+    <p>Copyright (c) 2016<br />
     <em>@author</em> Oliver Merkel, Merkel(dot) Oliver(at) web(dot) de.<br />
     All rights reserved.<br />
     Logos and trademarks belong to their respective owners.</p>
     <p>All source code also including code parts written in HMTL, Javascript, CSS is under MIT License.</p>
     <h4>The MIT License (MIT)</h4>
-    <p>Copyright (c) 2014 Oliver Merkel, Merkel(dot) Oliver(at) web(dot)de</p>
+    <p>Copyright (c) 2016 Oliver Merkel, Merkel(dot) Oliver(at) web(dot)de</p>
 
     <p>Permission is hereby granted, free of charge, to any person obtaining a copy of
     this software and associated documentation files (the &quot;Software&quot;), to deal in
@@ -426,23 +426,23 @@ If not otherwise stated all game graphics (independent of its format) are licens
     CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
 
     <p>If not otherwise stated all game graphics (independent of its format) are licensed under
-      <br /><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.en_US"
-      target="_blank"><img alt="Creative Commons License" style="border-width:0"
-      src="img/icons/cc_by_nc_sa.png" /></a><br />Images are licensed under a
-      <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.en_US"
-      target="_blank">Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+      <br /><a rel='license' href='http://creativecommons.org/licenses/by-nc-sa/4.0/deed.en_US'
+      target='_blank'><img alt='Creative Commons License' style='border-width:0'
+      src='img/icons/cc_by_nc_sa.png' /></a><br />Images are licensed under a
+      <a rel='license' href='http://creativecommons.org/licenses/by-nc-sa/4.0/deed.en_US'
+      target='_blank'>Creative Commons Attribution-NonCommercial-ShareAlike 4.0
       International License</a>.
     </p>
-    <div data-role="collapsible-set" data-theme="c" data-content-theme="d"
-      data-iconpos="right" data-collapsed-icon="arrow-l" data-expanded-icon="arrow-d">
-    <div data-role="collapsible">
+    <div data-role='collapsible-set' data-theme='c' data-content-theme='d'
+      data-iconpos='right' data-collapsed-icon='arrow-l' data-expanded-icon='arrow-d'>
+    <div data-role='collapsible'>
       <h4>Sliding Tiles Puzzle Principles and Concepts</h4>
       <p>The basic ruleset of Sliding Tiles Puzzle is in the public domain
         due to its age. Please mind that certain variants are covered by legal
         rights concerning trademarks, game designs and possibly authorship on
         an exact ruleset for commerical versions.</p>
     </div><!-- collapsible -->
-    <div data-role="collapsible">
+    <div data-role='collapsible'>
       <h4>Third Party Code Licenses</h4>
       <p>This <b>Sliding Tiles Puzzle</b> implementation uses unmodified independent code
       libraries provided by <em>third parties</em>.
@@ -452,15 +452,15 @@ If not otherwise stated all game graphics (independent of its format) are licens
       any related list of conditions, disclaimers, and especially
       the copyright holders and authors of the corresponding third
       party functionality.</p>
-      <a href="https://github.com/jquery/jquery" data-role="button" data-theme="c"
-        rel="external" target="_blank" type="text/html"
-        title="jQuery - Repository">
-        <img src="thirdparty/jquery-favicon.ico" />
+      <a href='https://github.com/jquery/jquery' data-role='button' data-theme='c'
+        rel='external' target='_blank' type='text/html'
+        title='jQuery - Repository'>
+        <img src='thirdparty/jquery-favicon.ico' width='16' height='16' />
         jQuery: MIT</a>
-      <a href="https://github.com/jquery/jquery-mobile" data-role="button" data-theme="c"
-        rel="external" target="_blank" type="text/html"
-        title="jQuery Mobile - Repository">
-        <img src="thirdparty/jquery.mobile-1.4.3/demos/favicon.ico" />
+      <a href='https://github.com/jquery/jquery-mobile' data-role='button' data-theme='c'
+        rel='external' target='_blank' type='text/html'
+        title='jQuery Mobile - Repository'>
+        <img src='thirdparty/jquery.mobile-1.4.5/demos/favicon.ico' width='16' height='16' />
         jQuery Mobile: MIT</a>
     </div><!-- collapsible -->
     </div><!-- collapsible-set -->
