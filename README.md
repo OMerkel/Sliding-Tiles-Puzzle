@@ -1,8 +1,10 @@
 <img alt="Fifteen Puzzle / Sliding Tiles Puzzle" width="64" src="html5/src/img/icons/tile64.png" /> Sliding Tiles Puzzle
 ====================
 
-* _Start an online_ __Sliding Tiles Puzzle__ _session on_ http://omerkel.github.io/Sliding-Tiles-Puzzle/html5/src
+* <em>Start an online</em> <b>Sliding Tiles Puzzle</b> <em>session on</em> http://omerkel.github.io/Sliding-Tiles-Puzzle/html5/src
 * <em>Also published in</em> <a href="https://marketplace.firefox.com/app/slidingtiles"><img align="middle" width="150px" src="https://marketplace.cdn.mozilla.net/media/fireplace/img/pretty/marketplace_logo.png" /></a>
+* <em>Android APK available for install</em> <img align="top" width="32" src="res/android.gif" /> https://github.com/OMerkel/Sliding-Tiles-Puzzle/releases/tag/release_apk_0.2
+    * <em>requires minimum Android 4.4.2 (API-19)</em>
 * <em>Runs in various browsers on</em>
     * <em>desktop systems like BSDs, Linux, Win, MacOS and</em>
     * <em>mobile platforms like Android, FirefoxOS, iOS.</em>
